@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>KBS - Stroke</title>
+  </head>
+  <body>
+    <form action="">
+      <div class="flex">
+        <div class="w-40">Gender</div>
+        <select name="gender" id="gender" class="ml-10">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+
+      <div class="flex">
+        <div class="w-40">Age</div>
+        <input type="number" name="age" id="age" class="ml-10" />
+      </div>
+
+      <div class="flex">
+        <p>Hypertension</p>
+        <select name="hypertension" id="hypertension" class="ml-28">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+
+      <div class="input_field">
+        <p>Heart Disease</p>
+        <select name="heart_disease" id="heart_disease" class="ml-28">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+
+      <div class="input_field">
+        <p>Ever Married</p>
+        <select name="heart_disease" id="heart_disease" class="ml-28">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+      </div>
+
+      <div class="input_field">
+        <p>Work Type</p>
+        <select name="work_type" id="work_type" class="ml-28">
+          <option value="Private">Private</option>
+          <option value="Self-employed">Self Employed</option>
+          <option value="Govt_job">Goverment Job</option>
+          <option value="children">Children</option>
+          <option value="Never_worked">Never Worked</option>
+        </select>
+      </div>
+
+      <div class="input_field">
+        <p>Residence Type</p>
+        <select name="residence_type" id="residence_type" class="ml-28">
+          <option value="Urban">Urban</option>
+          <option value="Rural">Rural</option>
+        </select>
+      </div>
+
+      <div class="input_field">
+        <p>Avg. Glukose Level</p>
+        <input
+          type="number"
+          name="avg_glukose_level"
+          id="avg_glukose_level"
+          step="0.01"
+          class="ml-28"
+        />
+      </div>
+
+      <div class="input_field">
+        <p>BMI</p>
+        <input type="number" name="bmi" id="bmi" step="0.1" class="ml-28" />
+      </div>
+
+      <div class="input_field">
+        <p>Smoking Status</p>
+        <select name="smoking_status" id="smoking_status" class="ml-28">
+          <option value="formerly smoked">Formerly</option>
+          <option value="never smoked">Never</option>
+          <option value="smokes">Smokes</option>
+          <option value="Unknown">Unknown</option>
+        </select>
+      </div>
+    </form>
+  </body>
+</html>
