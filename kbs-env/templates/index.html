@@ -16,7 +16,7 @@
       <li>Aisha Geubrina Yasmin - 13519089</li>
       <li>Rafi Raihansyah - 13519154</li>
     </ul>
-    <form action="" class="ml-4">
+    <form action="" class="ml-4" method="POST">
       <div class="flex mb-4">
         <div class="w-40">Gender</div>
         <select
@@ -159,7 +159,7 @@
         <div>Result:</div>
 
         <div class="ml-2">
-          {% if predicted_class %} {{predicted_class}} {% else %} ... {% endif
+          {% if predicted_class is not none %} {{predicted_class}} {% else %} ... {% endif
           %}
         </div>
       </div>
@@ -167,7 +167,7 @@
       <div class="flex">
         <div>Confidence:</div>
         <div class="ml-2">
-          {% if confidence %} {{confidence}} {% else %} ... {% endif %}
+          {% if confidence is not none %} {{confidence}} {% else %} ... {% endif %}
         </div>
       </div>
       {% endblock %}
