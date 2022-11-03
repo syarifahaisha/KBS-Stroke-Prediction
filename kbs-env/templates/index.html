@@ -159,14 +159,15 @@
         <div>Result:</div>
 
         <div class="ml-2">
-          {% if predicted_class %} {predicted_class} {% else %} ... {% endif %}
+          {% if predicted_class %} {{predicted_class}} {% else %} ... {% endif
+          %}
         </div>
       </div>
 
       <div class="flex">
         <div>Confidence:</div>
         <div class="ml-2">
-          {% if confidence %} {confidence} {% else %} ... {% endif %}
+          {% if confidence %} {{confidence}} {% else %} ... {% endif %}
         </div>
       </div>
       {% endblock %}
