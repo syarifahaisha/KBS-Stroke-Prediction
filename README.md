@@ -6,12 +6,12 @@
 - flask 
 - import-ipynb
 - imblearn
-
+go to kbs-env directory
+``` cd kbs-env ```
+then install required libraries from requirements.tct
 ``` pip install -r requirements.txt ```
 
 ### Command Run
-go to kbs-env directory
-``` cd kbs-env ```
 then run the program
 ``` flask run ```
 
