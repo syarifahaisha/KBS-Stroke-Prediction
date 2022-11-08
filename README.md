@@ -10,6 +10,9 @@
 ``` pip install -r requirements.txt ```
 
 ### Command Run
+go to kbs-env directory
+``` cd kbs-env ```
+then run the program
 ``` flask run ```
 
 ## Dataset
